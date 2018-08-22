@@ -16,5 +16,10 @@ namespace GitTest
         {
             InitializeComponent();
         }
+
+        private void btnTest_Click(object sender, EventArgs e)
+        {
+            txtTest.Text = "HELLO WORLD!";
+        }
     }
 }
